@@ -2,4 +2,4 @@
 
 require 'gisty'
 
-Gisty.check_gists ARGV[0]
+Gisty.check_gists (ENV['GITHUB_TOKEN'] || ARGV[0])
