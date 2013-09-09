@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'gisty/gisty'
+require 'gisty'
 
-Gisty.check_gists
+Gisty.check_gists ARGV[0]
