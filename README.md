@@ -29,7 +29,7 @@ called `GITHUB_TOKEN` e.x (in a .bash_profile):
 
 ## Usage
 
-`cleangist` with environmental variable OR `cleangist <personal access token>`
+`cleangist` with environmental variable OR `cleangist 64154e0cd2082e1e7fb3f59aa6fd39dc6b9e770d`
 
 
 ## Contributing
