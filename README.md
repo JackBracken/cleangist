@@ -3,18 +3,18 @@
 This gem helps you clean up your gists. It will iterate through your gists and ask to keep your gist or to remove it.
 
 
-########################################################################
-Files: Test.java,TopologySetup.java
-Languages: Java,Java
-Visibility: public
-https://api.github.com/gists/xx
-------------------------------------------------------------------------
- Test gist
-------------------------------------------------------------------------
-This is a test gist
-file contents
-
-Keep gist? [y]/n/q q
+    ########################################################################
+    Files: Test.java,TopologySetup.java
+    Languages: Java,Java
+    Visibility: public
+    https://api.github.com/gists/xx
+    ------------------------------------------------------------------------
+     Test gist
+    ------------------------------------------------------------------------
+    This is a test gist
+    file contents
+    
+    Keep gist? [y]/n/q q
 
 ## Installation
 
@@ -25,7 +25,7 @@ Keep gist? [y]/n/q q
 Go to your Account Settings on Github and create a new Personal Access Token. Put this in an environmental variable
 called `GITHUB_TOKEN` e.x (in a .bash_profile):
 
-export GITHUB_TOKEN 64154e0cd2082e1e7fb3f59aa6fd39dc6b9e770d
+    export GITHUB_TOKEN 64154e0cd2082e1e7fb3f59aa6fd39dc6b9e770d
 
 ## Usage
 
