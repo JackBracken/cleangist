@@ -1,5 +1,0 @@
-#!/usr/bin/env ruby
-
-require 'gisty'
-
-Gisty.check_gists (ENV['GITHUB_TOKEN'] || ARGV[0])

@@ -1,4 +1,4 @@
-# Gisty
+# CleanGist
 
 This gem helps you clean up your gists. It will iterate through your gists and ask to keep your gist or to remove it.
 
@@ -18,7 +18,7 @@ Keep gist? [y]/n/q q
 
 ## Installation
 
-    $ gem install gisty
+    $ gem install cleangist
 
 ## Get an access token
 
@@ -29,7 +29,7 @@ export GITHUB_TOKEN 64154e0cd2082e1e7fb3f59aa6fd39dc6b9e770d
 
 ## Usage
 
-`gisty` with environmental variable OR `gisty <personal access token>`
+`cleangist` with environmental variable OR `cleangist <personal access token>`
 
 
 ## Contributing

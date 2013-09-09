@@ -1,7 +1,7 @@
-require "gisty/version"
-require "gisty/github_api"
+require "cleangist/version"
+require "cleangist/github_api"
 
-module Gisty
+module CleanGist
   require "highline/import"
 
   def self.print_gist_header(gist)

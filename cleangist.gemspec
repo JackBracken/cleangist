@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'gisty/version'
+require 'cleangist/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "gisty"
-  spec.version       = Gisty::VERSION
+  spec.name          = "cleangist"
+  spec.version       = CleanGist::VERSION
   spec.authors       = ["Michael Rose"]
   spec.email         = ["elementation@gmail.com"]
   spec.description   = %q{Helps clean up unwanted gists}

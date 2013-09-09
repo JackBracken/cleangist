@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'cleangist'
+
+CleanGist.check_gists (ENV['GITHUB_TOKEN'] || ARGV[0])
